@@ -6,10 +6,17 @@
 	<script src="jquery-3.3.1.min.js"></script>
 	<link rel="stylesheet" href="css/style.css">
 	<script type="text/javascript" src="js/script.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
+	<script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".fancybox").fancybox();
+		});
+	</script>
 </head>
 <body>
 	<div id="container">
-		<header>
+		<header class="fancybox fancybox.iframe">
 			<h1>Search <span>Vidz</span></h1>
 			<p>Search all Youtube videos</p>
 		</header>
